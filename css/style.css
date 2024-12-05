@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+ height: 60px;
+ position: fixed;
+ top:0;
+ z-index: 99;
+}
+
+body, .header, .section4-image:hover .i1, .section10-icons a{
+  background-color: #f3f3f4;
+}
+
+.list{
+ list-style: none;
+ float: right;
+ margin-right: 40px;
+}
+
+.list li{
+  margin-left: 15px;
+}
+
+.list li,.section6-div1, .section6-div-p1 .section6-p{
+    display: inline-block;
+}
+
+.list li a, .section7-div1, .section7-div2 ,.section7-div3,.section7-div4,.section8-div1, .section8-div2,
+.section8-div3,.section9-div1, .section9-div2,.section10-item,.section10-img, .section11-div1, 
+.section11-image, .list .li7, .home, .input1, .section3-parent, .section5-parent,.section3-div1,
+.section3-div2, .section3-div3, .section5-div1, .section5-div2, .section5-div3, .section4-image{
+    position: relative;
+}
+
+.list li a ,.section3-a, .section11-a{
+  text-decoration: none;
+}
+
+.list li a, .section3-div1:hover .section3-paragraph1, .section5-div1:hover .section5-paragraph1 ,
+ .section3-div2:hover .section3-paragraph1,.section5-div2:hover .section5-paragraph1,
+ .section3-div3:hover .section3-paragraph1 , .section5-div3:hover .section5-paragraph1,
+ .section3-div1 .i1 , .section3-div2 .i1, .section3-div3 .i1, .section5-div1 .i1 , 
+ .section5-div2 .i1, .section5-div3 .i1, .section3-a, .section6-p,
+  .section10-item:hover .section10-info-title, .section11-content a{
+  color: black;
+ }
+
+.list li a::before,.list .li7:hover  .ul2, .home-content .home-btn, .section6-div2:hover,
+ .section6-div3:hover,.section8-btn1, .section8-btn2, .section8-btn3,.section10-item, .section12-container{
+  background-color: rgb(155 50 91);
+}
+
+.list li a::before, .ul2 li a::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.list li a:hover::before, .ul2 li a:hover::before{
+    height: 3px;
+}
+
+.header .i1{
+  margin: 15px 20px;
+}
+
+.header .i1, .section3-title1, .section5-title1, .section4-image:hover .i1{
+  font-size: 25px;
+}
+
+.i2{
+  z-index: 99;
+  left: 6%;
+  top: 40%;
+}
+
+.i2, .home-content .home-btn,.section8-paragraph1, .section8-paragraph3, .section8-paragraph5{
+  font-size: 20px;
+}
+
+.input1{
+   padding: 7px 40px; 
+   border: 2px solid black;
+   border-radius: 20px;
+}
+
+.input1:hover,.section8-div1, .section8-div2,.section8-div3,.section8-child,.section8-btn1, 
+.section8-btn2, .section8-btn3, .section11-div1, .section3-div1, .section3-div2, .section3-div3,
+.section5-div1, .section5-div2, .section5-div3{
+   border: 1px solid rgb(155 50 91); 
+}
+
+.ul2 li a, .home-content .home-btn,.section3-div1:hover  .section3-title1 , 
+.section5-div1:hover  .section5-title1,.section3-div2:hover  .section3-title1, 
+.section5-div2:hover  .section5-title1,.section3-div3:hover  .section3-title1, 
+.section5-div3:hover  .section5-title1,.section4-image:hover .section4-content h2,
+.section4-image:hover .section4-content p,.section7-div1, .section7-div2 ,.section7-div3, 
+.section7-div4,.section8-btn1, .section8-btn2, .section8-btn3,.section8-div1:hover .section8-title1,
+.section8-div2:hover .section8-title2, .section8-div3:hover .section8-title3,.section9-title, .section9-p1, 
+.section10-info-title, .section10-item:hover .section10-info-p, .section11-div1:hover .section11-sp1,
+.section11-div1:hover p, .section11-div1:hover h3, .section12-icons a:hover, .section12-parent p{
+  color: #f3f3f4;
+}
+
+.ul2 li a::before, .line, .section4-line, .section5-line,.section6-div1,
+.section6-div2, .section6-div3, .section6-line, .section8-div1:hover .section8-btn1, 
+.section8-div2:hover .section8-btn2,.section8-div3:hover .section8-btn3,.section8-line{
+    background-color: black;
+  }
+
+.ul2 li{
+    display: none;
+}
+
+.list .li7:hover  .ul2 li{
+  line-height: 50px;
+}
+
+.list .li7:hover  .ul2 li, .section6-image img, .section8-span2, .section8-span4,
+ .section8-span6, .section10-icons a{
+  display: block;
+}
+
+.list .li7:hover  .ul2 {
+    width: 140px;
+    height: 150px;
+}
+
+.list .li7:hover  .ul2 ,.section8-div1, .section8-div2,.section8-div3,
+.section8-btn1, .section8-btn2, .section8-btn3,.section10-item, .section4-image:hover .i1{
+  border-radius: 10px;
+}
+
+.list .li7:hover  .ul2 , .section6-div1, .section8-line{
+  margin-top: 10px;
+}
+
+.home{
+   height: 100vh;
+   background-image: url(../images/salad1.jpeg);
+}
+
+.home-overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ul2, .i2 ,.home-overlay, .home-content,.section4-overlay,.section4-content, 
+.section7-child,.section9-child,.section10-icons{
+  position: absolute;
+}
+
+.home-content{
+  width: 60%;
+}
+
+.home-content,.section4-content, .section7-child,.section9-child{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.home-content, .section3-title,.section3-div1 ,.section3-div2 ,.section3-div3, .section5-title, 
+.section4-title,.section4-content, .section7-child,.section8-main-title,.section8-div1, 
+.section8-div2, .section8-div3,.section9-child,.section10-item, .section11-div1, .section12-parent{
+ text-align: center;
+}
+
+.home-content .home-title, .section12-icons a{
+    font-size: 45px;
+}
+
+.home-content .home-title,.section8-title1, .section8-title2, .section8-title3, 
+.section8-span1, .section8-span3, .section8-span5, .section10-info-title, .section12-parent p{
+ text-transform: uppercase;
+}
+
+.home-content .home-title,.section3-title, .section5-title, .section3-title1, .section5-title1, 
+.section4-title, .section4-image:hover .i1,.section6-title,.section8-main-title,.section8-title1, 
+.section8-title2, .section8-title3, .section10-icons a, .section11-div1 h3{
+  color: rgb(155 50 91);
+}
+
+.home-content .home-p{
+    color: rgb(207, 159, 178);
+    letter-spacing: 2px;
+    margin: 20px 0px;
+}
+
+.home-content .home-btn{
+    padding: 20px 20px;
+    border: 0;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.list li a, .home-content .home-btn, .section3-title, .section5-title, .section3-title1,.section5-title1, 
+.section3-a,.section6-title,.section8-main-title,.section8-btn1, .section8-btn2, .section8-btn3,
+.section9-title, .section9-p1,.section9-p2, .section10-info-p, .section11-div1 h3,.section11-sp1{
+  text-transform: capitalize;
+}
+
+.home-content .btn2,.section6-div1{
+    margin-left: 10px;
+}
+
+.home-content .home-btn:hover{
+   opacity: 0.3; 
+}
+
+.container,.section6-container{
+  width: 80%;
+  margin:auto;
+}
+
+ .section5-div1, .section5-div2 ,.section5-div3{
+   padding-left:20px;
+ }
+
+ .section3-div2, .section5-div2{
+    margin: 0px 50px; 
+  }
+
+.section3-title, .section4-title,.section5-title,.section6-title,.section8-main-title{
+    font-size: 40px;
+ }
+
+ .section3-title, .section5-title{
+  margin-top: 50px;
+}
+
+.line, .section4-line, .section5-line{
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.line, .section4-line, .section5-line,.section8-line{
+  width: 100px;
+  height: 4px;
+}
+
+.list, .line, .section4-line, .section5-line, .section9-content{
+  margin-top: 20px;
+}
+
+.section4-line{
+    margin-top: -30px;
+}
+
+.section3-parent, .section5-parent{
+    margin-top: 70px;
+}
+
+ .section3-div1, .section3-div2, .section3-div3, .section5-div1, .section5-div2, .section5-div3{
+  height: 210px;
+} 
+
+.section3-div1, .section3-div2, .section3-div3, .section5-div1, 
+.section5-div2, .section5-div3,.section11-div1, .section12-div1 img{
+  border-radius: 8px;
+}
+
+ .section5-title1{
+  display: inline;
+} 
+
+.section3-title1, .section3-paragraph1, .section11-image{
+    padding-bottom: 20px;
+}
+
+.section3-div1 .i1 , .section3-div2 .i1, .section3-div3 .i1, .section5-div1 .i1 , .section5-div2 .i1, .section5-div3 .i1{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+ .section3-paragraph1, .section5-paragraph1{
+    color: rgba(0, 0, 0, 0.7);
+ }
+
+.section3-div1::after, .section5-div1::after,
+.section3-div2::after, .section5-div2::after,
+.section3-div3::after, .section5-div3::after,
+.section8-div1::after, .section8-div2::after ,
+.section8-div3::after,.section10-item::after, .section11-div1::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    background-color:rgb(207, 159, 178);
+  }
+
+.section3-div1:hover::after ,.section5-div1:hover::after,
+.section3-div2:hover::after, .section5-div2:hover::after,
+.section3-div3:hover::after, .section5-div3:hover::after,.section8-div1:hover::after, 
+.section8-div2:hover::after, .section8-div3:hover::after, .section11-div1:hover::after{
+    width: 100%;
+    height:100%;
+    z-index: -1;
+}
+
+.header, .home, .home-overlay,.section4-overlay,.section10-img img,.section10-icons,
+ .section11-image img, .section11-div1::after, .section12-container, .section4-image img,
+ .section8-div1::after, .section8-div2::after ,.section8-div3::after, .section4-div1,
+ .list li a:hover::before, .ul2 li a:hover::before, .section10-item::after,
+.section7, .section9-container {
+  width: 100%;
+}
+
+.section4-div1{
+    height: 700px;
+}
+
+.section4-div1,.section8-main-title, .section9-container{
+  margin-top: 100px;
+}
+
+.section4-parent1, .section6-parent, .section7-parent,.section8-parent,.section9-parent,
+.section9-child,.section10-content, .section11-parent, .section3-parent, .section5-parent{
+    overflow: auto;
+}
+
+ .ww, .section11-parent .item{
+    margin: 0px 5%;
+}
+
+.section4-image{
+    margin-bottom: 50px;
+} 
+
+.section4-image,.section10-item, .section11-div1, .section3-div1, .section3-div2, 
+.section3-div3, .section5-div1, .section5-div2, .section5-div3{
+  width: 30%;
+  float: left;
+}
+
+.section4-title{
+  padding: 50px 0px;
+}
+
+ .section4-overlay{
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0); 
+}  
+
+.section4-overlay, .section10-icons{
+  top: 0;
+  height: 100%;
+}
+
+.section4-image:hover .section4-overlay, .section10-item:hover .section10-icons,
+.section4-image:hover .section4-content{
+    visibility: visible;
+}
+
+.section4-image:hover .section4-overlay, .section10-icons{
+  background-color: rgba(0, 0, 0,  0.5); 
+}
+
+.section4-overlay, .section10-icons, .section4-content{
+    visibility: hidden;
+  }
+
+  .section4-image:hover .section4-content p, .section12-div1{
+    padding-top: 20px;
+  }
+
+  .section4-image:hover .section4-icons{
+    padding-top: 25px;
+  }
+
+  .section4-image:hover .i1{
+    padding: 5px 8px;
+  }
+
+  .section6-container,.section10-content, .section11-parent, .section12-parent{
+    margin-top: 80px;
+  }
+
+  .section6-content, .section6-image{
+    width: 500px;
+  }
+
+  .section6-content, .section6-image, .section7-div1, .section7-div2 ,.section7-div3,
+   .section7-div4,.section9-div1, .section9-div2{
+    float: left;
+    height: 400px;
+  }
+
+  .section6-image{
+    margin-left: 70px;
+  }
+
+  .section6-circles{
+    margin: auto;
+    width: 35%;
+  }
+
+ .section6-div1{
+   width: 15px;
+   height: 15px;
+  }
+
+  .section6-div1, .section8-child, .section9-image img{
+    border-radius: 50%;
+  }
+
+  .section6-title, .section6-p{
+    padding-bottom: 30px;
+  }
+
+  .section6-line{
+    width: 50px;
+    height: 4px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+  }
+
+  .home, .section7,.section9-container{
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
+  .section7,.section9-container{
+    background-image: url(../images/salad20.jpg);
+    background-attachment: fixed;
+  }
+
+  .section7-div1, .section7-div2 ,.section7-div3, .section7-div4{
+   width: 20%;  
+  }
+
+ .section7-div1{
+   margin-left: 90px;
+  }
+
+.section7-div2,.section9-div1{
+    margin: 0px 20px;
+}
+  .section7-div3{
+   margin-right: 20px;
+  }
+
+.section7-child .i1{
+    font-size: 35px;
+  }
+
+.section7-child .i1, .section11-icons, .section11-content p,.section11-content h3{
+    padding-bottom: 15px;
+  }
+
+.section8-line, .section8-child,.section10-img, .section11-image{
+  margin: auto;
+}
+
+.section8-line{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.section8-div1, .section8-div2,.section8-div3{
+ width: 300px;  
+ height: 350px;
+ float: left;
+}
+
+.section8-title1, .section8-title2, .section8-title3, .section8-span1, .section8-span3, .section8-span5{
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.section8-div1{
+  margin-left: 225px;
+}
+
+.section8-div2{
+  margin: 0px 50px; 
+}
+
+.section8-child,.section8-btn1, .section8-btn2, .section8-btn3{
+  margin-top: 30px;
+}
+
+.section8-child{
+  width: 80px;  
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.section8-div1:hover .section8-child,.section8-div2:hover .section8-child,
+.section8-div3:hover .section8-child{
+  border: 1px solid #f3f3f4;
+}
+
+.section8-paragraph1, .section8-paragraph3, .section8-paragraph5{
+  font-weight:bold;
+  padding-top: 15px;
+}
+
+.section8-span2, .section8-span4, .section8-span6{
+  line-height: 35px;
+}
+ 
+.section8-btn1, .section8-btn2, .section8-btn3{
+ padding: 7px 40px;
+}
+
+.section9-container{
+    background-image: url(../images/salad26.jpg);
+}
+
+.section9-div1, .section9-div2{
+  width: 45%;
+}
+
+.section9-p2{
+  line-height: 22px;
+}
+
+.section9-image img{
+  width: 120px;
+  height: 100px;
+}
+
+.section9-image,.section9-content{
+  float: left;
+  width: 150px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.section10-item, .section11-div1{
+ padding: 14px 18px;
+}
+
+.section10-img, .section11-image{
+  width: 90%;
+}
+
+.section10-icons a{
+  width: 40px;
+  height: 40px;
+  font-size: 23px;
+  margin-left: auto;
+}
+
+.section10-icons a i{
+  line-height: 40px;
+}
+
+.section10-info-title{
+  padding: 12px 0px;
+}
+
+.section10-item::after {
+  background-color:rgba(233, 214, 221, 0.658);
+}
+
+.section10-item:hover::after{
+  width: 100%;
+  height:100%;
+}
+
+.section11-sp1{
+  padding-right: 12px;
+}
+
+.section12-container{
+  height:300px;
+}
+
+.section12-div1{
+ padding-bottom: 10px;
+}
+
+.section12-icons a{
+  color: #f3f3f4a4; 
+}
+
+.section12-parent p{
+  padding-top: 10px;
+}
+
